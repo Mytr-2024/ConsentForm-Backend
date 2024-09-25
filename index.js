@@ -1,5 +1,5 @@
-import express from 'express'
 import dotenv from 'dotenv'
+import express from 'express'
 import fileUpload from 'express-fileupload';
 import cors from 'cors'
 import { connectToMongo } from './database/database.js';

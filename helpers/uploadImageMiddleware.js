@@ -9,7 +9,7 @@ export const uploadImageMiddleware = async (files, quantity) => {
     const urls=[];
 
     try {
-        await signInWithEmailAndPassword(auth, "deepaksingh101101@gmail.com", "deepak");
+        await signInWithEmailAndPassword(auth, "consent.mytr@gmail.com", "Consent@2024");
 
         if (quantity === 'single') {
             const dateTime = Date.now();
